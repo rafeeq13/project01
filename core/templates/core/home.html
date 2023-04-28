@@ -1,0 +1,32 @@
+{% extends 'core/base.html' %}
+{% load static %}
+{% block content %}
+<div class="mt-5 text-center">
+
+</div>
+<div class=" text-white text-justify">
+    <h1 class="font-weight-bold st-font text-justify">Hello,</h1>
+    <div class="px-4" style="line: height 2rem;">
+    <p style="text-indent:100px; ">I am <b 
+    class="text-warning"> Muhammad Rafeeq </b>As an experienced developer, I have 
+    expertise in Python, Django, SQLite, Bootstrap, jQuery, HTML, and CSS. I have also
+     worked with MS Excel, using it to analyze and visualize data. My knowledge of these
+      technologies allows me to develop robust and scalable
+     web applications with modern design and functionality.</p> 
+    <p>cI am particularly skilled in using  <b class="text-white  rounded-circle btn btn-danger">Python </b> and <b class="text-white  rounded-circle btn btn-dangerr">Django </b> to build backend systems, including RESTful APIs
+         and database integration. I am familiar with popular frontend frameworks like <b class="text-white  rounded-circle btn btn-danger">Bootstrap</b>  and <b class="text-white  rounded-circle btn btn-danger">Jquery</b>,
+          which help me develop responsive and dynamic user interfaces. My knowledge of <b class="text-white  rounded-circle btn btn-danger">HTML </b> and <b class="text-white  rounded-circle btn btn-danger">CSS </b> enables
+         me to create clean and intuitive designs that are both visually appealing and user-friendly.</p>
+    <p>Additionally, I have experience with data analysis and visualization using <b class="text-white  rounded-circle btn btn-danger">MS Excel</b>, which allows me
+         to derive insights and trends from complex data sets.</p>
+         <p>Overall, my skills and experience in web development, backend programming, frontend design, 
+            and data analysis make me 
+            a valuable asset to any organization seeking a talented and versatile developer.</p>
+    </div>
+</div>
+<div class="text-center">  
+<a href="{% url 'contact' %}" class="text-info bg-red btn btn-outline-success my-3 mr-5">Hire me </a>
+<a href="{% url 'contact' %}" class="btn btn-outline-info my-3">Contact</a> 
+</div>
+        
+{% endblock content %}

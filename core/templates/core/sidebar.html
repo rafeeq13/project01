@@ -1,0 +1,26 @@
+{% load static %}
+    <div class="border-right border-red h-100">
+    <div class="text-center">
+        <img src="{% static 'core/images/myphoto.jpeg' %}" 
+        alt="Here is the profile picture" 
+        class="img-fluid rounded-circle mt-3 "
+        width="250px"
+        height="500px" alt="here is the  profiel picture" >
+        <h3 class="  text-white mt-3 st-font">M:Rafeeq</h3>
+    </div>
+    <hr class="border-light">
+
+    <nav class="nav flex-column text-justiy">
+        <a href="{% url 'home' %}" class="rounded-circle btn btn-warning hover-link mt-3">Summary</a>
+        <a href="{% url 'services' %}" class=" rounded-circle btn btn-warning hover-link mt-3">Experience</a>
+        <a href="{% url 'skill'  %}" class=" rounded-circle btn btn-warning hover-link mt-3">Skill</a>
+        <a href="{% url 'contact' %}" class=" rounded-circle btn btn-warning hover-link mt-3">Contact</a>
+        <style>
+            .hover-link:hover {
+                background-color: green;
+                color: white;
+                font-weight: bold;
+              }
+        </style>
+    </nav>
+    </div>

@@ -1,0 +1,19 @@
+.st-font{
+    font-family: "Satisfy";
+}
+html,body{
+    height: 100%;
+}
+.container-fluid{
+    min-height: 100%;
+}
+.i-colo{
+    color: chartreuse;
+
+}
+.ss-color{
+    color: whitesmoke;
+}
+a.nav-link {
+    color: whitesmoke;
+}
